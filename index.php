@@ -83,19 +83,103 @@
         <!-- End Left Sidebar  -->        
         <!--    CONTEÚDO    -->
         <div class="page-wrapper">
-            <div class="container-fluid">
-                <div class="row justify-content-center" style="padding-top: 10%">
-                    <div align="right" class="col-lg-6">
-                        <img height="300px" src="images/logo_brisa.png">
+        <div class="container-fluid">
+                <!-- Start Page Content -->
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card p-30">
+                            <div class="media">
+                                <div class="media-left meida media-middle">
+                                    <span><i class="fa fa-calendar f-s-20 color-dark"></i></span>
+                                </div>
+                                <div class="media-body media-text-right">
+                                    <h5>Agendadas</h5>
+                                    <p class="m-b-0">0</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div alig class="col-lg-6">fffffff</div>
+                    <div class="col-md-3">
+                        <div class="card p-30">
+                            <div class="media">
+                                <div class="media-left meida media-middle">
+                                    <span><i class="fa fa-check f-s-20 color-info"></i></span>
+                                </div>
+                                <div class="media-body media-text-right">
+                                    <h5>Instaladas</h5>
+                                    <p class="m-b-0">0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card p-30">
+                            <div class="media">
+                                <div class="media-left meida media-middle">
+                                    <span><i class="fa fa-exclamation f-s-20 color-warning"></i></span>
+                                </div>
+                                <div class="media-body media-text-right">
+                                    <h5>Pendentes</h5>
+                                    <p class="m-b-0">0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card p-30">
+                            <div class="media">
+                                <div class="media-left meida media-middle">
+                                    <span><i class="fa fa-window-close f-s-20 color-danger"></i></span>
+                                </div>
+                                <div class="media-body media-text-right">
+                                    <h5>Canceladas</h5>
+                                    <p class="m-b-0">0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="row justify-content-center">
-                        <h3 class="logo">Seja Bem-Vindo(a)!</h3>
+            
+            <div class="row">
+                <div class="col-lg-8"></div>
+                <div class="col-lg-4">
+                    <div class="card">
+								<div class="card-title">
+									<h4>Avisos Fixos</h4>
+								</div>
+								<div class="recent-comment">
+                                    <div class="media">
+										<div class="media-left">
+											<a href="#"><img alt="..." src="images/avatar/1.jpg" class="media-object"></a>
+										</div>
+										<div class="media-body">
+											<h4 class="media-heading">Welisson</h4>
+											<p>Ei, pessoal! Façam silêncio por favor!!</p>
+											<p class="comment-date">23 de agosto, 2018</p>
+										</div>
+									</div>
+                                    
+									<div class="media">
+										<div class="media-left">
+											<a href="#"><img alt="..." src="images/avatar/1.jpg" class="media-object"></a>
+										</div>
+										<div class="media-body">
+											<h4 class="media-heading">SICA</h4>
+											<p>Este é o SICA - Sistema de Controle de Agendamentos. Aqui você deve registrar todas as informações de agendamento substituindo suas antigas planilhas.</p>
+											<p class="comment-date">22 de agosto, 2018</p>
+										</div>
+									</div>
+								</div>
+							</div>
                 </div>
-
             </div>
+            
         </div>
+<!--
+            <footer>
+                <img style="margin-left:-40px; position:absolute; bottom:-2%;" width="250px" src="images/Imagem2.png">
+            </footer>
+-->
         
     </div>
     <!-- End Wrapper -->
